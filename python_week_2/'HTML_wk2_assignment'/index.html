@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lists, Images, Tables & Forms</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    <header>
+        <h1>HTML Lists</h1>
+        <h2>Ordered Lists</h2>
+        <ol type="i">
+            <li>Lion</li>
+            <li>Buffalo</li>
+            <li>Cheetah</li>
+            <li>Rhino</li>
+            <li>Elephant</li>
+        </ol>
+
+        <h1>HTML Images</h1>
+        <img src="c:\Users\User\Downloads\istockphoto-619273854-612x612.jpg" alt="Image of a fairy" width="300" height="200">
+
+        <h1>HTML Tables</h1>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <thead> 
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Mobile</th>
+                    <th>Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> 
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> 
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> 
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td> 
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Total: 4</td>
+                </tr>
+            </tfoot>
+            </table>
+
+            <h1>HTML Forms</h1>
+            <form action="https://www.google.com" method="get">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                
+                <label for="password">Password:</label><br>
+                <input type="text" id="password" name="password"><br>
+
+                <label for="date_files">Date Files:</label><br>
+                <input type="text" id="date_files" name="date_files"><br>
+                
+                <label for="country">Country:</label><br>
+                <select id="country" name="country">
+                    <option value="Kenya">Kenya</option>
+                    <option value="Uganda">Uganda</option>
+                    <option value="Tanzania">Tanzania</option>
+                    <option value="Rwanda">Rwanda</option>
+                </select><br><br>
+
+                <label>Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br><br>
+
+                <label>Hobbies:</label><br>
+                <input type="checkbox" id="reading" name="hobbies" value="reading">
+                <label for="reading">Reading</label><br>
+                <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+                <label for="traveling">Traveling</label><br>
+                <input type="checkbox" id="sports" name="hobbies" value="sports">
+                <label for="sports">Sports</label><br>
+                <input type="checkbox" id="other" name="hobbies" value="other">
+                <label for="other">Other</label><br><br>
+                
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
